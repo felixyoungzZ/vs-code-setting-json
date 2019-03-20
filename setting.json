@@ -1,0 +1,62 @@
+{
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "workbench.colorTheme": "Monokai",
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
+  "leetcode.defaultLanguage": "javascript",
+  "explorer.confirmDelete": false,
+  "editor.wordWrap": "on",
+  "editor.fontFamily": "Operator Mono, Consolas, 'Courier New', monospace",
+  "editor.fontSize": 14,
+  "editor.fontLigatures": true,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "name": "italic bold font",
+        "scope": [
+          "keyword",
+          "storage",
+          "keyword.control",
+          "keyword.control.from",
+          "keyword.control.flow",
+          "keyword.operator.new",
+          "keyword.control.import",
+          "keyword.control.export",
+          "keyword.control.default",
+          "keyword.control.trycatch",
+          "keyword.control.conditional",
+          "storage.type",
+          "storage.type.class",
+          "storage.modifier.tsx",
+          "storage.type.function",
+          "storage.modifier.async",
+          "variable.language",
+          "variable.language.this",
+          "variable.language.super",
+          "constant.language.null",
+          "support.type.primitive",
+          "entity.name.method.js",
+          "entity.other.attribute-name",
+          "punctuation.definition.comment",
+          "text.html.basic entity.other.attribute-name",
+          "tag.decorator.js entity.name.tag.js",
+          "tag.decorator.js punctuation.definition.tag.js",
+          "source.js constant.other.object.key.js string.unquoted.label.js"
+        ],
+        "settings": {
+          "fontStyle": "italic bold"
+        }
+      },
+      {
+        "name": "italic font",
+        "scope":[
+          "comment"
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+  "workbench.editor.enablePreview": false
+}
